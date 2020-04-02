@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblInstToRadians" min="-2" pref="417" max="-2" attributes="0"/>
+                      <Component id="lblInstSqrt" min="-2" pref="431" max="-2" attributes="0"/>
+                      <Component id="lblInstCeiling" min="-2" pref="462" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblInstMax" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="lblheader" min="-2" pref="190" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="222" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtMaxNum1" min="-2" pref="22" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtMaxNum2" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnMax" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="lblMaxValue" min="-2" pref="129" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblInstMin" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="txtMinNum1" min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtMinNum2" min="-2" pref="28" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnMin" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblMinValue" min="-2" pref="115" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblInstPow" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="txtPowNum1" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtPowNum2" min="-2" pref="26" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnPow" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblPowValue" min="-2" pref="120" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblInstHypot" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="txtHypotNum1" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtHypotNum2" min="-2" pref="26" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnHypot" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblHypotValue" min="-2" pref="141" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblInstFloor" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="txtToRadiansNum" min="-2" pref="33" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="btnToRadians" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lblToRadiansValue" min="-2" pref="174" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSqrtNum" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="btnSqrt" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lblSqrtValue" min="-2" pref="152" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtCeilingNum" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="btnCeiling" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lblCeilingValue" min="-2" pref="183" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtFloorNum" min="-2" pref="38" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Component id="btnFloor" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lblFloorValue" min="-2" pref="148" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="254" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblheader" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblInstMax" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtMaxNum1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMaxNum2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnMax" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblMaxValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstMin" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtMinNum1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMinNum2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnMin" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblMinValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstPow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtPowNum1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPowNum2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnPow" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblPowValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lblInstHypot" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtHypotNum1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtHypotNum2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnHypot" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblHypotValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstFloor" min="-2" pref="14" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtFloorNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnFloor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFloorValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstCeiling" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCeilingNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCeiling" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCeilingValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstSqrt" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSqrtNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnSqrt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblSqrtValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstToRadians" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnToRadians" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtToRadiansNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblToRadiansValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="34" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblheader">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Magical Math Methods"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstMax">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter two numbers and click the button. The program will display the largest of the two numbers."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMaxNum1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMaxNum1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMaxNum2">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnMax">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Largest"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMaxActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMaxValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstMin">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter two numbers and click the button. The program will display the smallest of the two numbers."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMinNum1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMinNum2">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnMin">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Smallest"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMinActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMinValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstPow">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter two numbers and click the button. The program will display the first number to the power of the second."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPowNum1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPowNum2">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnPow">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Power"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPowActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPowValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstHypot">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter the length of two sides of a right angle triangle. The program will display the hypotenuse of the triangle."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtHypotNum1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtHypotNum2">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnHypot">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hypotenuse"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHypotActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblHypotValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstFloor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a decimal value. The program will display the value rounded down to the nearest integer."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFloorNum">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFloorNumActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnFloor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rounded Down"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFloorActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFloorValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstCeiling">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a decimal value. The program will display the value rounded up to the nearest integer."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCeilingNum">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCeilingNumActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCeiling">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rounded Up"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCeilingActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCeilingValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstSqrt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter an integer. The program will display the square root of the integer."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSqrtNum">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSqrt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Square Root"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSqrtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSqrtValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstToRadians">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter an angle in degrees. The program will display the angle in radians."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnToRadians">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="In Radians"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnToRadiansActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtToRadiansNum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblToRadiansValue">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
